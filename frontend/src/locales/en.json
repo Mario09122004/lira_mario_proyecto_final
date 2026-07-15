@@ -1,0 +1,96 @@
+{
+  "common": {
+    "appName": "Francisco Villa Museum",
+    "theme": "Theme",
+    "language": "Language",
+    "logout": "Log Out",
+    "login": "Log In",
+    "cancel": "Cancel",
+    "save": "Save",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "login": {
+    "title": "Access Control",
+    "subtitle": "Sign in to manage museum data and reports",
+    "email": "Email Address",
+    "password": "Password",
+    "submit": "Sign In",
+    "error": "Invalid credentials or connection error."
+  },
+  "visitorForm": {
+    "title": "Visitor Registration",
+    "subtitle": "Please help us by completing this brief form about your visit",
+    "ticketFolio": "Ticket Folio",
+    "visitorName": "Visitor Name (Group Leader)",
+    "numPeople": "Number of People",
+    "genderBreakdown": "Gender Breakdown",
+    "men": "Men",
+    "women": "Women",
+    "ageBreakdown": "Age Breakdown",
+    "children": "Children",
+    "youth": "Youth",
+    "adults": "Adults",
+    "elderly": "Seniors",
+    "originType": "Group Origin",
+    "local": "Local (Durango)",
+    "national": "National (Other State)",
+    "international": "International (Other Country)",
+    "state": "State of Origin",
+    "municipality": "Durango Municipality",
+    "country": "Country of Origin",
+    "submit": "Submit Registration",
+    "successMsg": "Thank you for visiting us! Your registration has been saved successfully.",
+    "validationError": "The entered details do not match. The sum of genders and ages must equal the total number of people."
+  },
+  "dashboard": {
+    "nav": {
+      "stats": "Statistics",
+      "registerUser": "Register Account",
+      "reports": "PDF Reports"
+    },
+    "kpis": {
+      "totalVisitors": "Total Visitors",
+      "totalGroups": "Total Groups",
+      "avgGroupSize": "Avg Group Size",
+      "men": "Men",
+      "women": "Women",
+      "children": "Children",
+      "youth": "Youth",
+      "adults": "Adults",
+      "elderly": "Seniors"
+    },
+    "filters": {
+      "title": "Data Filters",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "originType": "Origin",
+      "all": "All",
+      "apply": "Apply Filters",
+      "clear": "Clear Filters"
+    },
+    "charts": {
+      "demographics": "Demographic Distribution",
+      "gender": "Gender Distribution",
+      "origins": "Visitor Origins",
+      "visitsOverTime": "Visits Trend",
+      "heatmap": "Origin Points (Heatmap)"
+    },
+    "reports": {
+      "title": "Report Generation",
+      "description": "Download a structured PDF file with visitor details according to the selected filters.",
+      "downloadBtn": "Download PDF Report"
+    },
+    "recentRecords": "Recent Records"
+  },
+  "registerUser": {
+    "title": "Register New Account",
+    "subtitle": "Create an account for a new administrator or system staff",
+    "name": "Full Name",
+    "email": "Email Address",
+    "password": "Password",
+    "submit": "Create Account",
+    "successMsg": "Account created successfully."
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "common": {
+    "appName": "Museo Francisco Villa",
+    "theme": "Tema",
+    "language": "Idioma",
+    "logout": "Cerrar Sesión",
+    "login": "Iniciar Sesión",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito"
+  },
+  "login": {
+    "title": "Control de Acceso",
+    "subtitle": "Inicia sesión para gestionar los datos y reportes del museo",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "submit": "Ingresar",
+    "error": "Credenciales inválidas o error de conexión."
+  },
+  "visitorForm": {
+    "title": "Registro de Visitantes",
+    "subtitle": "Por favor, ayúdanos completando este breve formulario sobre tu visita",
+    "ticketFolio": "Folio de Boleto",
+    "visitorName": "Nombre del Visitante (Líder del grupo)",
+    "numPeople": "Número de Personas",
+    "genderBreakdown": "Desglose por Género",
+    "men": "Hombres",
+    "women": "Mujeres",
+    "ageBreakdown": "Desglose por Edades",
+    "children": "Niños",
+    "youth": "Jóvenes",
+    "adults": "Adultos",
+    "elderly": "Tercera Edad",
+    "originType": "Procedencia del Grupo",
+    "local": "Local (Durango)",
+    "national": "Nacional (Otro Estado)",
+    "international": "Internacional (Otro País)",
+    "state": "Estado de procedencia",
+    "municipality": "Municipio de Durango",
+    "country": "País de procedencia",
+    "submit": "Enviar Registro",
+    "successMsg": "¡Gracias por visitarnos! Tu registro se ha guardado correctamente.",
+    "validationError": "Los datos ingresados no coinciden. La suma de géneros y edades debe ser igual al número total de personas."
+  },
+  "dashboard": {
+    "nav": {
+      "stats": "Estadísticas",
+      "registerUser": "Registrar Cuenta",
+      "reports": "Reportes PDF"
+    },
+    "kpis": {
+      "totalVisitors": "Total Visitantes",
+      "totalGroups": "Total Grupos",
+      "avgGroupSize": "Promedio de Grupo",
+      "men": "Hombres",
+      "women": "Mujeres",
+      "children": "Niños",
+      "youth": "Jóvenes",
+      "adults": "Adultos",
+      "elderly": "Tercera Edad"
+    },
+    "filters": {
+      "title": "Filtros de Datos",
+      "startDate": "Fecha de Inicio",
+      "endDate": "Fecha Fin",
+      "originType": "Procedencia",
+      "all": "Todos",
+      "apply": "Aplicar Filtros",
+      "clear": "Limpiar Filtros"
+    },
+    "charts": {
+      "demographics": "Distribución Demográfica",
+      "gender": "Distribución de Género",
+      "origins": "Procedencia de Visitantes",
+      "visitsOverTime": "Tendencia de Visitas",
+      "heatmap": "Puntos de Origen (Mapa de Calor)"
+    },
+    "reports": {
+      "title": "Generación de Reportes",
+      "description": "Descarga un archivo PDF estructurado con la información de los visitantes de acuerdo a los filtros seleccionados.",
+      "downloadBtn": "Descargar Reporte PDF"
+    },
+    "recentRecords": "Registros Recientes"
+  },
+  "registerUser": {
+    "title": "Registrar Nueva Cuenta",
+    "subtitle": "Crea una cuenta para un nuevo administrador o personal del sistema",
+    "name": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "submit": "Crear Cuenta",
+    "successMsg": "Cuenta creada de forma exitosa."
+  }
+}

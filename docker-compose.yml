@@ -1,0 +1,43 @@
+services:
+
+  postgres:
+    image: postgres:14.22-bookworm
+    restart: always
+    shm_size: 256mb
+    environment:
+      POSTGRES_PASSWORD: admin
+      POSTGRES_USER: admin
+      POSTGRES_DB: MuseoFranciscoVilla
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgresql_data:/var/lib/postgresql/data
+      - ./Backend/database/init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 512M
+
+  backend:
+    build: ./Backend
+    restart: always
+    ports:
+      - "5000:5000"
+    environment:
+      PORT: 5000
+      DATABASE_URL: postgresql://admin:admin@postgres:5432/MuseoFranciscoVilla
+      JWT_SECRET: supersecretkeyforfranciscovilla12345
+    depends_on:
+      - postgres
+
+  frontend:
+    build: ./frontend
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgresql_data:
