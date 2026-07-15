@@ -4,7 +4,7 @@ import { UserPlus, Mail, Lock, AlertCircle, CheckCircle2, User } from 'lucide-re
 import axios from 'axios';
 import { z } from 'zod';
 
-const API_URL = 'http://localhost:5000/api/auth/register';
+const API_URL = '/api/auth/register';
 
 const registerSchema = z.object({
   nombre: z.string().min(1, "El nombre es requerido"),

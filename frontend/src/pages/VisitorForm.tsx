@@ -6,7 +6,7 @@ import axios from 'axios';
 import { z } from 'zod';
 import { MEXICAN_STATES, DURANGO_MUNICIPALITIES, COUNTRIES } from '../data/locations';
 
-const API_URL = 'http://localhost:5000/api/visitantes';
+const API_URL = '/api/visitantes';
 
 // Zod validation schema for frontend (matching backend rules)
 const visitorFormSchema = z.object({

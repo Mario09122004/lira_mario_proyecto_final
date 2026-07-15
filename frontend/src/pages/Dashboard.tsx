@@ -12,8 +12,8 @@ import {
 import axios from 'axios';
 import RegisterUser from './RegisterUser';
 
-const STATS_URL = 'http://localhost:5000/api/visitantes/stats';
-const REPORT_URL = 'http://localhost:5000/api/visitantes/report';
+const STATS_URL = '/api/visitantes/stats';
+const REPORT_URL = '/api/visitantes/report';
 
 const COLORS = ['#854d0e', '#ca8a04', '#0d9488', '#2563eb'];
 

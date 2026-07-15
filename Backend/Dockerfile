@@ -1,7 +1,7 @@
 FROM node:26.5.0-alpine3.24
 
-# Habilitar corepack para usar pnpm
-RUN corepack enable
+# Instalar pnpm
+RUN npm install -g pnpm
 
 WORKDIR /app
 

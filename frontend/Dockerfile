@@ -1,7 +1,7 @@
 # Stage 1: Build
 FROM node:26.5.0-alpine3.24 AS build
 
-RUN corepack enable
+RUN npm install -g pnpm
 WORKDIR /app
 
 COPY package.json pnpm-lock.yaml* ./

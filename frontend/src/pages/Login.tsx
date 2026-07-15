@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Sun, Moon, Globe, Lock, Mail, AlertCircle } from 'lucide-react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/auth/login';
+const API_URL = '/api/auth/login';
 
 export default function Login() {
   const { t, i18n } = useTranslation();
